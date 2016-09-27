@@ -13,7 +13,7 @@
         <strong>Name:</strong> <?php echo $_POST['name']; ?>
     </div>
     <div class="email">
-        <strong>Email:</strong> <?php echo $_POST['email']; ?>
+        <strong>Email:</strong> <?php echo '<a href="mailto:' . $_POST['email'] . '">' . $_POST['email'] . '</a>'; ?>
     </div>
     <div class="major">
         <strong>Major:</strong> <?php echo $_POST['major']; ?>
